@@ -1,5 +1,12 @@
 package main
 
+// Strings, which are widely used in Go programming, are a readonly slice
+// of bytes. In the Go programming language, strings are slices. The Go
+// platform provides various libraries to manipulate strings:
+//   unicode
+//   regexp
+//   strings
+
 import (
 	"fmt"
 	// alias the strings package to s for brevity of code
@@ -29,8 +36,8 @@ func main() {
 	p()
 
 	// These important built-in functions are not part of the strings package
-	// These functions work at the byte level. Go uses UTF-8 encoded strings, 
-	//    
+	// These functions work at the byte level. Go uses UTF-8 encoded strings,
+	//
 	p("Len:  ", len("hello"))
 	p("Char: ", "hello"[1])
 }
