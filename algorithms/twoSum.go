@@ -1,3 +1,7 @@
+// Brute force: nested loops		O(N^2)
+// 	outer loop: iterates through each element
+// 	inner loop: checks each element to see if it sums to the target with the outer loop's element
+
 package main
 
 import "fmt"
